@@ -1,0 +1,35 @@
+name: ultron_exnova_app
+description: App Android (Flutter) de señales IA para Exnova (1m/5m, OTC/normal, filtros, noticias, backtest CSV/Excel).
+publish_to: "none"
+version: 0.3.0+6
+
+environment:
+  sdk: ">=3.3.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.8
+  web_socket_channel: ^2.4.5
+  tflite_flutter: ^0.10.4
+  provider: ^6.1.2
+  flutter_local_notifications: ^17.2.2
+  intl: ^0.19.0
+  dio: ^5.7.0
+  file_picker: ^8.0.7
+  csv: ^6.0.0
+  path: ^1.9.0
+  path_provider: ^2.1.4
+  share_plus: ^10.0.2
+  excel: ^4.0.2
+  permission_handler: ^11.3.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/ai/patterns.tflite
